@@ -19,7 +19,7 @@ This project demonstrates lung cancer segmentation using a custom-trained YOLOv8
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/furzamharis/lungcancer-seg.git
+git clone https://github.com/hassanqu/lungcancer-seg.git
 cd lungcancer-seg
 ````
 
